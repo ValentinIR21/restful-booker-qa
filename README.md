@@ -32,7 +32,7 @@ Python 3.11+
 
 <h4>Клонировать репозиторий</h4>
 
-```git clone https://github.com/ValentinIR21/booker-qa.git```
+```git clone https://github.com/ValentinIR21/restful-booker-qa.git```
 
 ```cd booker-qa```
 
