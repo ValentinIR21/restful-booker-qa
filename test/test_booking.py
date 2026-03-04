@@ -1,6 +1,7 @@
 import pytest
 from clients.booking_client import BookingClient
 from data.test_data import *
+import allure
 
 @pytest.fixture
 def client():
@@ -8,6 +9,9 @@ def client():
     client = BookingClient()
 
     return client
+
+@allure.feature("Booking Management")
+@allure.story("Create Booking")
 
 def test_booking_passed(client):
     
