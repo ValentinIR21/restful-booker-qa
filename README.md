@@ -61,3 +61,22 @@ Linux/Max: ```source venv/bin/activate```
 - ```pytest test_booking_empty_firstname -v```
   
 - ```pytest test_booking_empty_checkin -v```
+
+
+<h2>Allure Results</h2>
+
+Для визуалиции тестирования использовал "Allure"
+
+<h3>Как запустить и посмотреть отчет:</h3>
+
+<h4>Запуск теста:</h4>
+
+```pytest --alluredir=allure-results```
+
+<h4>Просмотр отчета в браузере:</h4>
+
+```allure serve allure-results```
+
+<h3>Отчет:</h3>
+
+![Allure Results[(./img/image.png)
