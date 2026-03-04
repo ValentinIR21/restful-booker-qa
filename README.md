@@ -79,4 +79,4 @@ Linux/Max: ```source venv/bin/activate```
 
 <h3>Отчет:</h3>
 
-![Allure Results[(./img/image.png)
+![Allure Results](./img/image.png)
